@@ -1,0 +1,13 @@
+.specification p {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    width: 235px;
+    height: 40px;
+}

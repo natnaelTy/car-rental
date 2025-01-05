@@ -1,0 +1,72 @@
+
+type CarCategories = {
+    id: number,
+    image: string,
+    categorie: string,
+    model: string,
+    airConditioning: string,
+    seats: number,
+    doors: number,
+    transmission: string,
+    scooter: string,
+} 
+
+export const Car: CarCategories[] = [
+   {
+     id: 0,
+     image: "./images/Toyota-YarisRemoved.png",
+     categorie: "Economy",
+     model: "Toyota Yaris or Similar",
+     airConditioning: "Air Conditioning",
+     seats: 4,
+     doors: 4,
+     transmission: "Automatic",
+     scooter: "Petrol",
+   },
+   {
+     id: 1,
+     image: "./images/Hyundai-ElantraRemoved.png",
+     categorie: "Compact",
+     model: "Hyundia Elantra or Similar",
+     airConditioning: "Air Conditioning",
+     seats: 4,
+     doors: 4,
+     transmission: "Automatic",
+     scooter: "Petrol",
+   },
+   {
+     id: 2,
+     image: "./images/vanRemoved.png",
+     categorie: "Van / Minivan",
+     model: "Van / Minivan or Similar",
+     airConditioning: "Air Conditioning",
+     seats: 12,
+     doors: 3,
+     transmission: "Manual",
+     scooter: "Petrol",
+   },
+   {
+     id: 3,
+     image: "./images/Toyota-HiluxRemoved.png",
+     categorie: "Truck",
+     model: "Toyota Hilux or Similar",
+     airConditioning: "Air Conditioning",
+     seats: 4,
+     doors: 4,
+     transmission: "Manual",
+     scooter: "Petrol",
+   },
+   {
+     id: 4,
+     image: "./images/jetourewhiteRemoved.png",
+     categorie: "SUV",
+     model: "Jetour Dashing or Similar",
+     airConditioning: "Air Conditioning",
+     seats: 5,
+     doors: 4,
+     transmission: "Automatic",
+     scooter: "Hybrid",
+   },
+];
+
+export default Car;

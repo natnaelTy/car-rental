@@ -1,0 +1,16 @@
+.photo{
+    background: url(../images/cars2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.bg-cover{
+    content: "";
+    background-color: #00000069;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+}
