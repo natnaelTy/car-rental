@@ -18,11 +18,12 @@ function Vehicles(){
   
     return(
         <>
+        {/* comman header photo */}
         <div className="relative">
             <HeaderPhoto/>
             <RoutingNav/>
             <div className="absolute top-32 left-16 text-white">
-               <h2 className="text-xl font-semibold md:text-2xl lg:text-3xl">Vehicles</h2>
+               <h2 className="hidden font-semibold md:flex md:text-2xl lg:text-3xl">Vehicles</h2>
             </div>
              <h1 className="absolute bottom-0 right-0 opacity-20 text-white font-bold text-gray-500 text-6xl md:text-8xl">Vehicles</h1>
         </div>
@@ -36,7 +37,7 @@ function Vehicles(){
                   Vehicle && Vehicle.length ? 
                   Vehicle.map((cars) => (
                     <div key={cars.id} className="max-w-[400px] min-h-[460px] rounded-md shadow-lg p-4 relative">
-                    <div className="w-[330px] md:w-[330px] h-[250px]">
+                    <div className="max-w-[330px] md:w-[330px] h-[250px]">
                         <img src={cars.image} alt={cars.model} className="w-full h-full object-cover" />
                         <div className="flex flex-col items-start gap-3 mt-3">
                             <h1 className="text-slate-900 text-lg font-medium">{cars.model}</h1>

@@ -21,7 +21,7 @@ function Testimonial2(){
              </div>
 
              <div className="flex flex-col items-start justify-between gap-8">
-                  <h1 className="text-slate-900 text-base p-5 max-w-lg">The car rental process was smooth and efficient, highly recommended!</h1>
+                  <h1 className="text-slate-900 text-base p-5 max-w-md">The car rental process was smooth and efficient, highly recommended!</h1>
                   <div className="flex items-center justify-center p-5 gap-6">
                        <div className="container-image">
                             <img src="./images/testimonial6.JPG" alt="" className="image"/>

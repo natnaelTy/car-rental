@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { LiaTimesSolid } from "react-icons/lia";
 import { AiOutlineMenu } from "react-icons/ai";
 import { NavLink } from "react-router";
-import { FaRegHeart } from "react-icons/fa";
+import { IoMdHeartEmpty } from "react-icons/io";
+import { Link } from "react-router";
 import useFavStore from "../store/Store";
 import { motion } from "framer-motion";
 
@@ -47,16 +48,17 @@ function NavBar(){
     return(
         <div className="flex items-center justify-center">
              <nav className={showNavBar ? "bg-slate-900 text-white max-w-[350px] md:max-w-[500px] lg:max-w-[700px] w-full rounded-full flex items-center justify-between py-2 px-6 h-[50px] fixed top-3 z-20" : "flex items-center justify-between lg:justify-around px-4 lg:px-8 w-full h-[60px] p-4 top-0 fixed bg-gradient-to-r from-white via-blue-200 to-white"}>
-                <div className="max-w-[130px] flex items-center gap-1">
+                {/* logo */}
+               <Link to={'/'}><div className="max-w-[70px] flex cursor-pointer items-center gap-1">
                     <img src="./images/logo.png" alt="" className="w-full object-cover"/>
-                    <h1 className="text-slate-900 text-lg font-medium">Golden</h1>
-                </div>   
+                </div></Link>
+                       {/* nav links */}
                         <ul className="hidden gap-10 md:flex items-center justify-between cursor-pointer">
                            <NavLinks/>
                        </ul> 
-                 <div className="text-xl cursor-pointer relative p-3">
-                     <NavLink to={'/favorites'}><FaRegHeart/></NavLink> 
-                     <div className={favList && favList.length > 0 ? "bg-red-600 w-[6px] h-[6px] rounded-full absolute top-3 right-3" : "hidden"}></div>
+                 <div className="text-2xl cursor-pointer relative p-3">
+                     <NavLink to={'/favorites'}><IoMdHeartEmpty/></NavLink> 
+                     <div className={favList && favList.length > 0 ? "bg-red-600 w-[6px] h-[6px] rounded-full absolute top-4 right-3" : "hidden"}></div>
                  </div>
                  {/* hamburger menu icon */}
                  {

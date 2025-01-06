@@ -11,7 +11,7 @@ function AboutDetail(){
             <HeaderPhoto/>
             <RoutingNav/>
             <div className="absolute top-32 left-16 text-white">
-               <h2 className="text-xl font-semibold md:text-2xl lg:text-3xl">About Us</h2>
+               <h2 className="hidden font-semibold md:flex md:text-2xl lg:text-3xl">About Us</h2>
             </div>
             <h1 className="absolute bottom-0 right-0 opacity-20 text-white font-bold text-gray-500 text-6xl md:text-8xl">About Us</h1>
         </div>

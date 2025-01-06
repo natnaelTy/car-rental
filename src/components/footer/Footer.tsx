@@ -11,7 +11,9 @@ function Footer(){
              <div className="md:flex-row flex flex-col gap-8 items-start justify-around pb-5 pt-8">
                 {/* company logo */}
                  <div className="flex flex-col items-start gap-6 text-white">
-                     <h1 className="text-lg md:text-xl lg:text-2xl font-medium">Golden</h1>
+                 <div className="max-w-[100px] flex cursor-pointer items-center gap-1">
+                    <img src="./images/logo.png" alt="" className="w-full object-cover"/>
+                </div>
                      <p>Drive Your Dreams with Golden</p>
                      <span className="flex items-center gap-2"><FaPhoneAlt/> <span className="text-slate-600">+251 975329588</span></span>
                      <span className="flex items-center gap-2"><MdEmail/> <span className="text-slate-600">goldeninfo99@gmail.com</span></span>

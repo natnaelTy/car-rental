@@ -36,7 +36,7 @@ function FAQ(){
              {/* FAQ */}
                 <div className="flex flex-col items-start gap-6">
                     {/* description */}
-                    <p className="text-blue-800 font-medium text-lg">FAQ</p>
+                    <p className="text-blue-800 font-medium mt-6 md:mt-0 text-lg">FAQ</p>
                     <h1 className="text-2xl md:text-3xl lg:text-4xl text-slate-900 font-medium max-w-lg">Car Rental Questions Answered</h1>
                      {/* mapping the data */}
                     {FaqData && FaqData.length ? 
