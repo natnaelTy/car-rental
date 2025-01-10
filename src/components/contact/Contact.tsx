@@ -74,7 +74,7 @@ function Contact(){
                     <div className="flex flex-col items-start gap-3">
                         <h1 className="text-slate-900 text-base md:text-lg font-medium">Phone Support</h1>
                         <p className="text-gray-700 text-xs md:text-sm">Call us for immediate assistance.</p>
-                        <p className="text-blue-800 text-sm md:text-base font-medium">+251 975329588</p>
+                        <p className="text-blue-800 text-sm md:text-base font-medium">+251 911553260</p>
                     </div>
                 </div>
                  {/* online chat */}
