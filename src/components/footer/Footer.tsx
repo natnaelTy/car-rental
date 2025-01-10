@@ -14,8 +14,8 @@ function Footer(){
                  <div className="max-w-[100px] flex cursor-pointer items-center gap-1">
                     <img src="./images/logo.png" alt="" className="w-full object-cover"/>
                 </div>
-                     <p>Drive Your Dreams with Golden</p>
-                     <span className="flex items-center gap-2"><FaPhoneAlt/> <span className="text-slate-600">+251 975329588</span></span>
+                     <p>Hit the road with Golden!</p>
+                     <span className="flex items-center gap-2"><FaPhoneAlt/> <span className="text-slate-600">+251 911553260</span></span>
                      <span className="flex items-center gap-2"><MdEmail/> <span className="text-slate-600">goldeninfo99@gmail.com</span></span>
                  </div>
                  {/* usefull links */}

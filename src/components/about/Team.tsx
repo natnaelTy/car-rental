@@ -13,7 +13,7 @@ function Team(){
              <div className="max-w-[810px] flex items-start justify-stretch gap-8 flex-wrap">
 
              <div className="max-w-[380px]">
-                <img src="./images/team1.JPG" alt=""  className="w-full h-[400px] object-cover rounded-xl"/>
+                <img src="./images/werkugolden.jpg" alt=""  className="w-full h-[400px] object-cover rounded-xl"/>
                 <div className="flex items-start justify-center gap-1 mt-6 flex-col">
                    <h1 className="text-lg lg:text-xl text-slate-900 font-medium">Werku beyene</h1>
                    <p className="text-gray-700 text-sm">Customer Support Lead</p>

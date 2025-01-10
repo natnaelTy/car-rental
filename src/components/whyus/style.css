@@ -1,0 +1,24 @@
+
+.content{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+    bottom: 0;
+    left: 0; 
+    padding: 8px;
+    gap: 1rem;
+    
+}
+
+.content:hover{
+    background-color: #0000dbe2;
+    color: white;
+}
+.content:hover  p{
+    color: white;
+}
